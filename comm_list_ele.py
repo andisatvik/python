@@ -1,7 +1,13 @@
 # Extract common elements from 2 lists
 
-a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+#importing random to create random lists of a fixed length
+
+import random
+
+
+a = random.sample(range(54),6)
+b = random.sample(range(54),9)
+print("a = "+str(a)+"\nb = "+str(b))
 c = []
 
 for x in b:
